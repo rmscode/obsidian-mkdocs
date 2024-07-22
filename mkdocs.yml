@@ -1,1 +1,25 @@
 site_name: My Docs
+
+plugins:
+  - pub-meta:
+      dir_meta_file: README.md
+    overview:
+      enable: true
+      defaut: auto
+      key_name: slug
+    publish:
+      search_in_hidden: false
+      search_in_draft: false
+      file_default: draft
+      file_warn_on_missing: true
+      dir_default: published
+      dir_warn_on_missing: false
+      key_name: publish
+    redirect:
+      key_name: redirect
+      enable: true
+      mode: title
+      warn_on_missing: true
+      key_name: slug
+    title:
+      key_name: title
