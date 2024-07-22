@@ -1,0 +1,9 @@
+site/
+blog-site/
+.obsidian/
+docs/.scratch/*
+blog-site/
+archive/
+/.vscode
+/.vscode/*
+venv/
